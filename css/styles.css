@@ -1,0 +1,76 @@
+body {
+    background-color: grey;
+}
+
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+span {
+    width: 60px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input {
+    height: 60px;
+    width: 80px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+}
+#output {
+    display: inline;
+}
+
+#resetInput:hover {
+    background-color: palegoldenrod;
+    color: cornflowerblue;
+}
+
+#resetAll:hover {
+    background-color: yellow;
+    color: crimson;
+}
+
+#add:hover {
+    background-color: rgb(155, 238, 155);
+}
+
+#minus:hover {
+    background-color: rgb(231, 150, 150);
+}
+
+#resetInput {
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: palegoldenrod;
+}
+
+#resetAll {
+    font-size: 20px;
+    background-color: crimson;
+    color: yellow;
+}
+
+.expression {
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+}
